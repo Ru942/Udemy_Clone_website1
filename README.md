@@ -48,4 +48,4 @@ Course detail pages
 Dark mode support
 Backend integration
 
-Project Link - https://ru942.github.io/Udemy_Clone_website1/
+Project Link - file:///C:/Users/rupes/Desktop/FSWD/CSS/udemy-clone/index.html
