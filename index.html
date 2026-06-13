@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Udemy</title>
+    <title>Udemy Clone</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
     <!-- CSS -->
@@ -23,29 +23,32 @@
 
 <body>
 
-    <!-- Navbar -->
+    <!-- NAVBAR -->
+
     <div class="navbar">
 
         <div class="navbar__s1">
             <h1 class="navbar__s1__title">Udemy</h1>
         </div>
 
-        <div class="navbar__s2">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input placeholder="Search anything here. Tech, Business, Art ....">
-        </div>
-
         <div class="navbar__s3">
             <p>Courses</p>
-            <p>My learning</p>
-            <i class="fa-solid fa-cart-arrow-down"></i>
+            <p>My Learning</p>
+            <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-solid fa-bell"></i>
             <i class="fa-solid fa-user"></i>
         </div>
 
+        <div class="navbar__s2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text"
+                placeholder="Search anything here. Tech, Business, Art...">
+        </div>
+
     </div>
 
-    <!-- Categories -->
+    <!-- CATEGORIES -->
+
     <div class="categories">
         <p>Development</p>
         <p>Business</p>
@@ -55,12 +58,14 @@
         <p>Marketing</p>
     </div>
 
-    <!-- Sales Image -->
+    <!-- SALES IMAGE -->
+
     <div class="Sales-Image">
-        <img src="./images/section-image(1).jpg" alt="Sales Image">
+        <img src="./images/section-image(1).jpg" alt="Udemy Banner">
     </div>
 
-    <!-- Recommended -->
+    <!-- RECOMMENDED -->
+
     <div class="recommended">
 
         <h1 class="recommended__title">Recommended for you</h1>
@@ -69,42 +74,43 @@
         <div class="recommended__container">
 
             <div class="Course-card">
-                <img src="./images/Course1.jpg">
-                <h3>2026 Block Chain Technology Masterclass</h3>
-                <p>Col Steve</p>
+                <img src="./images/course1.jpg" alt="">
+                <h3>2026 CI/CD Pipelines with Jenkins and GitHub Actions</h3>
+                <p>Mumtaz Khan</p>
                 <p>4.0 ⭐⭐⭐⭐</p>
-                <p>₹599 <del>1499</del></p>
+                <p>₹599 <del>₹1499</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course2.jpg">
-                <h3>2026 Full Stack Web Development Masterclass</h3>
-                <p>Col Steve</p>
+                <img src="./images/course2.jpg" alt="">
+                <h3>2026 Cloud Native Development with Kubernetes</h3>
+                <p>Nigel Poulton</p>
                 <p>5.0 ⭐⭐⭐⭐⭐</p>
-                <p>₹699 <del>1999</del></p>
+                <p>₹699 <del>₹1999</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course 3.jpg">
-                <h3>2026 DevOps & Cloud Computing Masterclass</h3>
-                <p>Col Steve</p>
+                <img src="./images/Course 13.avif" alt="">
+                <h3>2026 Microservices Architecture with Node.js</h3>
+                <p>Maximilian Schwarzmüller</p>
                 <p>4.6 ⭐⭐⭐⭐</p>
-                <p>₹899 <del>3000</del></p>
+                <p>₹899 <del>₹3000</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course 4.jpg">
-                <h3>2026 Artificial Intelligence & Machine Learning Masterclass</h3>
-                <p>Col Steve</p>
+                <img src="./images/Course 4.jpg" alt="">
+                <h3>2026 AWS Cloud Practitioner to Solutions Architect</h3>
+                <p>Stephane Maarek</p>
                 <p>4.3 ⭐⭐⭐⭐</p>
-                <p>₹999 <del>5000</del></p>
+                <p>₹999 <del>₹5000</del></p>
             </div>
 
         </div>
 
     </div>
 
-    <!-- Topics Recommended -->
+    <!-- TOPICS -->
+
     <div class="topics">
 
         <h1 class="topics__title">Topics recommended for you</h1>
@@ -115,7 +121,7 @@
             <p>JavaScript</p>
             <p>Python</p>
             <p>Java</p>
-            <p>Mongo DB</p>
+            <p>MongoDB</p>
             <p>PHP</p>
             <p>Kotlin</p>
             <p>Ruby</p>
@@ -123,108 +129,115 @@
 
     </div>
 
-    <!--Popular Section-->
+    <!-- POPULAR -->
+
     <div class="Popular">
-    <h1 class="popular__title">Most Popular</h1>
-    <p class="popular__subtitle">Pick the best fit</p>
 
-    <div class="popular__container">
-        <div class="Course-card">
-                <img src="./images/Course1.jpg">
-                <h3>2026 Block Chain Technology Masterclass</h3>
-                <p>Col Steve</p>
-                <p>4.0 ⭐⭐⭐⭐</p>
-                <p>₹599 <del>1499</del></p>
+        <h1 class="popular__title">Most Popular</h1>
+        <p class="popular__subtitle">Pick the best fit</p>
+
+        <div class="popular__container">
+
+            <div class="Course-card">
+                <img src="./images/Course 10.avif" alt="">
+                <h3>2026 MERN Stack Development Bootcamp</h3>
+                <p>Brad Traversy</p>
+                <p>4.1 ⭐⭐⭐⭐</p>
+                <p>₹599 <del>₹1499</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course2.jpg">
-                <h3>2026 Full Stack Web Development Masterclass</h3>
-                <p>Col Steve</p>
+                <img src="./images/Course 9.avif" alt="">
+                <h3>2026 Artificial Intelligence & Machine Learning</h3>
+                <p>Andrew Ng</p>
                 <p>5.0 ⭐⭐⭐⭐⭐</p>
-                <p>₹699 <del>1999</del></p>
+                <p>₹699 <del>₹1999</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course 3.jpg">
-                <h3>2026 DevOps & Cloud Computing Masterclass</h3>
-                <p>Col Steve</p>
-                <p>4.6 ⭐⭐⭐⭐</p>
-                <p>₹899 <del>3000</del></p>
+                <img src="./images/Course 11.avif" alt="">
+                <h3>2026 Data Science with Python</h3>
+                <p>Kirill Eremenko</p>
+                <p>3.9 ⭐⭐⭐⭐</p>
+                <p>₹899 <del>₹3000</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course 4.jpg">
-                <h3>2026 Artificial Intelligence & Machine Learning Masterclass</h3>
-                <p>Col Steve</p>
-                <p>4.3 ⭐⭐⭐⭐</p>
-                <p>₹999 <del>5000</del></p>
+                <img src="./images/Course 13.avif" alt="">
+                <h3>2026 Cloud Computing with AWS</h3>
+                <p>Stephane Maarek</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>₹999 <del>₹5000</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course1.jpg">
-                <h3>2026 Block Chain Technology Masterclass</h3>
-                <p>Col Steve</p>
-                <p>4.0 ⭐⭐⭐⭐</p>
-                <p>₹599 <del>1499</del></p>
+                <img src="./images/Course 5.avif" alt="">
+                <h3>2026 Java Programming Masterclass</h3>
+                <p>Tim Buchalka</p>
+                <p>4.7 ⭐⭐⭐⭐</p>
+                <p>₹599 <del>₹1499</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course2.jpg">
-                <h3>2026 Full Stack Web Development Masterclass</h3>
-                <p>Col Steve</p>
-                <p>5.0 ⭐⭐⭐⭐⭐</p>
-                <p>₹699 <del>1999</del></p>
+                <img src="./images/Course 6.avif" alt="">
+                <h3>2026 Mobile App Development with Flutter</h3>
+                <p>Academind</p>
+                <p>4.9 ⭐⭐⭐⭐⭐</p>
+                <p>₹699 <del>₹1999</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course 3.jpg">
-                <h3>2026 DevOps & Cloud Computing Masterclass</h3>
-                <p>Col Steve</p>
-                <p>4.6 ⭐⭐⭐⭐</p>
-                <p>₹899 <del>3000</del></p>
+                <img src="./images/Course 7.avif" alt="">
+                <h3>2026 DevOps Engineering Complete Course</h3>
+                <p>Bret Fisher</p>
+                <p>4.4 ⭐⭐⭐⭐</p>
+                <p>₹899 <del>₹3000</del></p>
             </div>
 
             <div class="Course-card">
-                <img src="./images/Course 4.jpg">
-                <h3>2026 Artificial Intelligence & Machine Learning Masterclass</h3>
-                <p>Col Steve</p>
-                <p>4.3 ⭐⭐⭐⭐</p>
-                <p>₹999 <del>5000</del></p>
+                <img src="./images/Course 8.avif" alt="">
+                <h3>2026 Kubernetes & Docker Masterclass</h3>
+                <p>Nigel Poulton</p>
+                <p>4.1 ⭐⭐⭐⭐⭐</p>
+                <p>₹999 <del>₹5000</del></p>
             </div>
+
         </div>
-    
 
     </div>
 
-    <!--Footer-->
+    <!-- FOOTER -->
+
     <div class="footer">
+
         <div class="footer__one">
 
-            <div class ="footer__one__s1">
-                <p>Udemy Buisness</p>
+            <div class="footer__one__s1">
+                <p>Udemy Business</p>
                 <p>Teach on Udemy</p>
                 <p>Get the App</p>
                 <p>About Us</p>
                 <p>Contact Us</p>
             </div>
 
-
-            <div class="footer__two__s2">
-                <p>Carrers</p>
+            <div class="footer__one__s2">
+                <p>Careers</p>
                 <p>Blog</p>
-                <p>Help and support</p>
-                <p>Affliate</p>
+                <p>Help and Support</p>
+                <p>Affiliate</p>
                 <p>Investors</p>
             </div>
 
         </div>
+
         <div class="footer__two">
             <h1>Udemy</h1>
-            <p>&copy; Udemy, Inc</p>
+            <p>&copy; 2026 Udemy, Inc.</p>
         </div>
+
     </div>
 
 </body>
 
 </html>
+```
